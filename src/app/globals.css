@@ -126,7 +126,7 @@
 }
 
 body{
-  background-image: url('C:\Users\ariaa\fti-app\public\Background.jpg')
+  background-image: url('/materi/Background.jpg');
 }
 
 @layer base {

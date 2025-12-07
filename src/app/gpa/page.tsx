@@ -20,11 +20,11 @@ interface Course{
 const gradePoints : {[key : string] : number} = {
     A : 4.0,
     AB: 3.5,
-    B: 3.3,
-    BC: 3.0,
-    C: 2.7,
-    D: 1.7,
-    E: 0.7,
+    B: 3.0,
+    BC: 2.5,
+    C: 2.0,
+    D: 1.0,
+    E: 0.0,
 }
 
 const gradeOptions = Object.keys(gradePoints)
