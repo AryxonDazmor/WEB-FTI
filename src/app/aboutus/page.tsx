@@ -10,7 +10,7 @@ import { activities } from "@/components/hooks/data";
 
 
 
-export default function aboutUs(){
+export default function AboutUs(){
     const sectionRef = useRef<HTMLDivElement | null> (null)
     //const {scrollYProgress} = useScroll({target: sectionRef, offset: ["start end", "end start" ]})
     
