@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import ImageCarousel from "@/components/ui/imageCarousel";
 import Reveal from "@/components/ui/text-reveal";
 import {motion} from "framer-motion";
