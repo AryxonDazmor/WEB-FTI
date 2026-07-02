@@ -60,7 +60,7 @@ export default function Page() {
     },
     {
       id: 7,
-      category: ["TF","TK","TB","TP","TI","MR"],
+      category: ["TF","TK","TB","PG","TI","MR"],
       kode: "WI2001",
       image: "/materi/prd.png",
       title: "Pengantar Rekayasa dan Desain",
@@ -68,7 +68,7 @@ export default function Page() {
     },
     {
       id: 8,
-      category: ["TF","TP","TI","MR"],
+      category: ["TF","PG","TI","MR"],
       kode: "WI2002",
       image: "/materi/lidia.png",
       title: "Literasi Data dan Inteligensi Artifisial",
@@ -84,7 +84,7 @@ export default function Page() {
     },
     {
       id: 10,
-      category: ["TK","TP"],
+      category: ["TK","PG"],
       kode: "WI2004",
       image: "/materi/Inggris.png",
       title: "Bahasa Inggris",
@@ -92,7 +92,7 @@ export default function Page() {
     },
     {
       id: 11,
-      category: ["TF","TK","TB","TP","TI","MR"],
+      category: ["TF","TK","TB","PG","TI","MR"],
       kode: "WI2005",
       image: "/materi/Indonesia.png",
       title: "Bahasa Indonesia",
@@ -124,18 +124,10 @@ export default function Page() {
     },
     {
       id: 15,
-      category: ["TK"],
+      category: ["TK","PG","TB"],
       kode: "KI1201",
       image: "/materi/kimia.png",
-      title: "Kimia Dasar 2A",
-      subtitle: "Kimia",
-    },
-    {
-      id: 16,
-      category: ["TP","TB"],
-      kode: "KI1201",
-      image: "/materi/kimia.png",
-      title: "Kimia Dasar 2B",
+      title: "Kimia Dasar 2A/B",
       subtitle: "Kimia",
     },
     {
@@ -179,25 +171,17 @@ export default function Page() {
       subtitle: "Teknik Bioenergi dan Kemurgi",
     },
     {
-      id: 32,
-      category: "TB",
-      kode: "TB1202",
-      image: "/materi/profesi.png",
-      title: "Kerekausahaan dan Pengenalan Keprofesian",
-      subtitle: "Teknik Bioenergi dan Kemurgi",
-    },
-    {
       id: 41,
-      category: "TP",
-      kode: "TP1201",
+      category: "PG",
+      kode: "PG1201",
       image: "/materi/analisis.png",
       title: "Analisis Matematik dan Numerik",
       subtitle: "Teknik Pangan",
     },
     {
       id: 42,
-      category: "TP",
-      kode: "TP1202",
+      category: "PG",
+      kode: "PG1202",
       image: "/materi/pangan.png",
       title: "Mikrobiologi Pangan",
       subtitle: "Teknik Pangan",
@@ -240,7 +224,7 @@ export default function Page() {
             <option value = "TI">Teknik Industri</option>
             <option value = "MR">Manajemen Rekayasa</option>
             <option value = "TB">Teknik Bioenergi dan Kemurgi</option>
-            <option value = "TP">Teknik Pangan</option>
+            <option value = "PG">Teknik Pangan</option>
             </select>
         </div>
         <div className = "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 p-4">
